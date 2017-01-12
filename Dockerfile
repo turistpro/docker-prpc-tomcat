@@ -1,4 +1,4 @@
-FROM tomcat:8-alpine
+FROM tomcat:8-jre8-alpine
 
 ADD /webapps/ /usr/local/tomcat/webapps/
 ADD /bin/ /usr/local/tomcat/bin/

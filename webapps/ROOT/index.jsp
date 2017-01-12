@@ -49,6 +49,16 @@
 			<!-- BEGIN Database information -->
 			<div id="course">
 				<h3>Database Information</h3>
+<p><strong>PostgreSQL Studio</strong> gives you the power to perform essential PostgreSQL database development tasks from a web-based console</p>                           
+<p>Click this URL to access the PostgreSQL Studio: <a href="http://<%= request.getServerName() %>:<%= request.getServerPort() %>/pgstudio">http://<%= request.getServerName() %>:<%= request.getServerPort() %>/pgstudio</a></p>
+                                        <ul>
+                                                <li>Database: PostgreSQL 9.4</li>                                                                                                                        
+                                                <li><strong>Host:</strong> db</>                                                                                                                         
+                                                <li><strong>Database Name:</strong> pega</li>                                                                                                               
+                                                <li><strong>User Name:</strong> postgres</li>                                                                                                               
+                                                <li><strong>Password:</strong> postgres</li>                                                                                                             
+                                        </ul>                                                                                                                                                               
+                                </p>
 				<p>Pega Academy recommends <a href="http://www.pgadmin.org/download/" target="_blank">PGAdmin</a> (opens in a new window) as the preferred tool for database administration.</p>
 					<ul>
 						<li>Database: PostgreSQL 9.4</li>
